@@ -5,4 +5,4 @@ from PIL import Image
 
 from dotenv import load_dotenv
 
-load_dotenv() ## load all the environment variables
+load_dotenv() 
