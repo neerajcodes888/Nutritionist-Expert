@@ -41,7 +41,7 @@ if uploaded_file is not None:
     image = Image.open(uploaded_file)
     st.image(image, caption="Uploaded Image.", use_column_width=True)
 
-input=st.text_input("Ask the question related to uploaded image only: ",key="input")
+input=st.text_input("Ask the question related to uploaded image only*: ",key="input")
 submit=st.button("Start Check Up")
 
 
