@@ -59,7 +59,7 @@ else:
         st.link_button("Kaggle", "https://www.kaggle.com/neerajdata")
      st.markdown("---")
      st.info('Nutritionist Expert - Check your food now', icon=None)
-     st.warning(' Upload  images  in (.jpg , .jpeg , .png)format Only')
+     st.warning(' Upload  image  in (.jpg , .jpeg , .png)format Only')
 
 
 
