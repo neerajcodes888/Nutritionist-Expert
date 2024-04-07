@@ -53,3 +53,10 @@ To use the Google API services, you need to obtain an API key from the Google Cl
 ```bash
 GOOGLE_API_KEY=your_api_key_here
 ```
+
+## Running the Application ▶️
+To run the application, execute the following command in your terminal:
+
+```bash
+streamlit run app.py
+```
