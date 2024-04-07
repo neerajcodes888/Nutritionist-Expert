@@ -48,7 +48,7 @@ if uploaded_file is not None:
 else:
      st.header("Nutritionist Expert Advice System")
      st.markdown("---")
-     st.markdown("Welcome to the nutritionist expert advice system where you can simply upload the food image and resume and can see calaries of foods in the image and enquire about it.")
+     st.markdown("Welcome to the nutritionist expert advice system where you can simply upload the food image  and can see calaries of foods in the image and enquire about it.")
      st.markdown("Neeraj Kumar")
      col1, col2, col3 = st.columns([1,1,1])
      with col1:
