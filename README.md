@@ -24,7 +24,7 @@ To use Nutritionist Expert:
 3. Ask questions related to the uploaded image to learn more about its nutritional value.
 
 ## Deployed Application 🌐
-[Link to Deployed Application]
+This application is deployed on render and  here is the [deployed link]()
 
 ## Demo Video ▶️
 [Link to Demo Video]
