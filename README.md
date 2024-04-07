@@ -60,3 +60,25 @@ To run the application, execute the following command in your terminal:
 ```bash
 streamlit run app.py
 ```
+
+
+## Tech Stack 💻
+Nutritionist Expert is built using the following technologies:
+
+- Generative AI
+- Streamlit
+- Python
+  
+## Benefits 🌟
+
+- Instant analysis of food images, providing users with valuable nutritional information.
+- Easy-to-use interface for uploading images and asking questions.
+- Promotes healthy eating habits by empowering users to make informed dietary choices.
+- Contributing 🤝
+- Contributions are welcome! If you have ideas for improvements or new features, feel free to open an issue or submit a pull request.
+
+## Credits 🙌
+Nutritionist Expert is developed using Streamlit, an open-source framework created by Streamlit, Inc., and Generative AI technology.
+
+- Streamlit: Link to Streamlit
+- Generative AI: [Link to Generative AI]
