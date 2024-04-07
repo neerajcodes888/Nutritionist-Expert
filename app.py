@@ -59,7 +59,7 @@ else:
         st.link_button("Kaggle", "https://www.kaggle.com/neerajdata")
      st.markdown("---")
      st.info('Resume Tracking - Making Job Applications Easier', icon=None)
-     st.warning(' Upload  Resume in  .pdf format Only')
+     st.warning(' Upload  images  in (.jpg , .jpeg , .png)format Only')
 
 
 
