@@ -71,11 +71,12 @@ Nutritionist Expert is built using the following technologies:
   
 ## Benefits 🌟
 
-- Instant analysis of food images, providing users with valuable nutritional information.
-- Easy-to-use interface for uploading images and asking questions.
-- Promotes healthy eating habits by empowering users to make informed dietary choices.
-- Contributing 🤝
-- Contributions are welcome! If you have ideas for improvements or new features, feel free to open an issue or submit a pull request.
+1. Instant analysis of food images, providing users with valuable nutritional information.
+2. Easy-to-use interface for uploading images and asking questions.
+3. Promotes healthy eating habits by empowering users to make informed dietary choices.
+  
+## Contributing 🤝
+ Contributions are welcome! If you have ideas for improvements or new features, feel free to open an issue or submit a pull request.
 
 ## Credits 🙌
 Nutritionist Expert is developed using Streamlit, an open-source framework created by Streamlit, Inc., and Generative AI technology.
