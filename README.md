@@ -34,3 +34,15 @@ To run Nutritionist Expert locally, ensure you have Python installed on your sys
 
 ```bash
 pip install -r requirements.txt
+```
+
+### Requirements
+- streamlit
+- google-generativeai
+- python-dotenv
+- langchain
+- PyPDF2
+- chromadb
+- pdf2image
+- faiss-cpu
+- langchain_google_genai
