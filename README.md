@@ -1,5 +1,8 @@
 # Nutritionist Expert 🥦🍔
 
+![food_checkup](https://github.com/neerajcodes888/Nutritionist-Expert/assets/98253646/eaa47190-ba5f-46c0-a895-0dae9e972e24)
+
+
 ## Table of Contents
 - [Introduction](#introduction) 📝
 - [Usage](#usage) 🚀
@@ -27,7 +30,9 @@ To use Nutritionist Expert:
 This application is deployed on render and  here is the [deployed link](https://food-checkup.onrender.com)
 
 ## Demo Video ▶️
-[Link to Demo Video]
+
+![food_checkup](https://github.com/neerajcodes888/Nutritionist-Expert/assets/98253646/bb6a95b3-574a-42f2-b7ae-0d0e9f2032ad)
+
 
 ## Installations ⚙️
 To run Nutritionist Expert locally, ensure you have Python installed on your system. Clone the repository and install the required dependencies using the following command:
