@@ -46,3 +46,10 @@ pip install -r requirements.txt
 - pdf2image
 - faiss-cpu
 - langchain_google_genai
+
+## Google API Key 🔑
+To use the Google API services, you need to obtain an API key from the Google Cloud Console and set it up in your environment. Create a .env file in the root directory of the project and add your API key as follows:
+
+```bash
+GOOGLE_API_KEY=your_api_key_here
+```
