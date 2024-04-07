@@ -40,6 +40,22 @@ if uploaded_file is not None:
     st.subheader("Your Uploaded  image")
     image = Image.open(uploaded_file)
     st.image(image, caption="Uploaded Image.", use_column_width=True)
+    
+else:
+     st.header("Advanced Resume Tracking System")
+     st.markdown("---")
+     st.markdown("Welcome to the advanced resume tracking system where you can simply upload the job description and resume and can see matching , missing and recommendations for job.")
+     st.markdown("Neeraj Kumar")
+     col1, col2, col3 = st.columns([1,1,1])
+     with col1:
+        st.link_button("Linkdin", "https://www.linkedin.com/in/neeraj-kumar-9a75811a2") 
+     with col2:
+        st.link_button("Github", "https://github.com/neerajcodes888")
+     with col3:
+        st.link_button("Kaggle", "https://www.kaggle.com/neerajdata")
+     st.markdown("---")
+     st.info('Resume Tracking - Making Job Applications Easier', icon=None)
+     st.warning(' Upload  Resume in  .pdf format Only')
 
 input=st.text_input("Ask the question related to uploaded image only*: ",key="input")
 submit=st.button("Start Check Up")
