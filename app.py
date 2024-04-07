@@ -37,6 +37,7 @@ st.sidebar.header("Nutritionist Expert")
 uploaded_file = st.sidebar.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 image=""  
 input="" 
+submit=0
 if uploaded_file is not None:
     st.subheader("Your Uploaded  image")
     image = Image.open(uploaded_file)
@@ -45,7 +46,7 @@ if uploaded_file is not None:
     submit=st.button("Start Check Up")
     
 else:
-     st.header("Advanced Resume Tracking System")
+     st.header("Nutritionist Expert Advice System")
      st.markdown("---")
      st.markdown("Welcome to the advanced resume tracking system where you can simply upload the job description and resume and can see matching , missing and recommendations for job.")
      st.markdown("Neeraj Kumar")
