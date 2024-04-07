@@ -5,7 +5,7 @@ from PIL import Image
 from dotenv import load_dotenv
 
 load_dotenv() 
-
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 def get_gemini_repsonse(input,image,prompt):
     model=genai.GenerativeModel('gemini-pro-vision')
     response=model.generate_content([input,image[0],prompt])
@@ -31,16 +31,17 @@ def input_image_setup(uploaded_file):
     
     
     
-st.set_page_config(page_title="Gemini Health App")
-st.sidebar.header("Gemini Health App")
-input=st.text_input("Input Prompt: ",key="input")
+st.set_page_config(page_title="Check Up")
+st.sidebar.header("Nutritionist Expert")
+
 uploaded_file = st.sidebar.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 image=""   
 if uploaded_file is not None:
+    st.subheader("Your Uploaded  image")
     image = Image.open(uploaded_file)
     st.image(image, caption="Uploaded Image.", use_column_width=True)
 
-
+input=st.text_input("Ask the question related to uploaded image only: ",key="input")
 submit=st.button("Start Check Up")
 
 
@@ -54,7 +55,7 @@ You are an expert in nutritionist where you need to see the food items from the 
                ----
                ----
 
-
+ and if question is not related to uploaded picture then simply tell out of context ,  do not provide wrong information. just say out of context
 """
 
 
