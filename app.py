@@ -35,11 +35,14 @@ st.set_page_config(page_title="Check Up")
 st.sidebar.header("Nutritionist Expert")
 
 uploaded_file = st.sidebar.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
-image=""   
+image=""  
+input="" 
 if uploaded_file is not None:
     st.subheader("Your Uploaded  image")
     image = Image.open(uploaded_file)
     st.image(image, caption="Uploaded Image.", use_column_width=True)
+    input=st.text_input("Ask the question related to uploaded image only*: ",key="input")
+    submit=st.button("Start Check Up")
     
 else:
      st.header("Advanced Resume Tracking System")
@@ -57,8 +60,7 @@ else:
      st.info('Resume Tracking - Making Job Applications Easier', icon=None)
      st.warning(' Upload  Resume in  .pdf format Only')
 
-input=st.text_input("Ask the question related to uploaded image only*: ",key="input")
-submit=st.button("Start Check Up")
+
 
 
 input_prompt="""
