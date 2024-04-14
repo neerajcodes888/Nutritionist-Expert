@@ -82,6 +82,7 @@ Nutritionist Expert is built using the following technologies:
 3. Promotes healthy eating habits by empowering users to make informed dietary choices.
   
 ## Contributing 🤝
+
  Contributions are welcome! If you have ideas for improvements or new features, feel free to open an issue or submit a pull request.
 
 ## Credits 🙌
