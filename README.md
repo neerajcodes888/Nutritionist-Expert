@@ -28,6 +28,7 @@ To use Nutritionist Expert:
 3. Ask questions related to the uploaded image to learn more about its nutritional value.
 
 ## Deployed Application 🌐
+
 This application is deployed on render and  here is the [deployed link](https://food-checkup.onrender.com)
 
 ## Demo Video ▶️
