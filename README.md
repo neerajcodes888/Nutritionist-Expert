@@ -19,6 +19,7 @@
 - [License](#license) 📜
 
 ## Introduction 📝
+
 Nutritionist Expert is an innovative application leveraging the power of Generative AI and Streamlit. It allows users to upload images of food for instant analysis of calorie content. Additionally, users can ask questions related to the uploaded image to gain deeper insights into the nutritional aspects of the food.
 
 ## Usage 🚀
