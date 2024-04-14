@@ -90,6 +90,7 @@ Nutritionist Expert is built using the following technologies:
  Contributions are welcome! If you have ideas for improvements or new features, feel free to open an issue or submit a pull request.
 
 ## Credits 🙌
+
 Nutritionist Expert is developed using Streamlit, an open-source framework created by Streamlit, Inc., and Generative AI technology.
 
 - [Streamlit](https://streamlit.io/)
