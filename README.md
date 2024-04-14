@@ -90,5 +90,5 @@ Nutritionist Expert is developed using Streamlit, an open-source framework creat
 - [Generative AI](https://ai.google/discover/generativeai/)
 
 
-License 📜
+## License 📜
 This project is licensed under the [GPL 3.0 License](https://github.com/neerajcodes888/Nutritionist-Expert/blob/main/LICENSE).
